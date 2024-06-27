@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cacau</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pixelify+Sans:wght@400..700&family=Shadows+Into+Light&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; 
+        }
+
+        .menu-item {
+            flex: 1 1 300px; 
+            max-width: 300px; 
+            position: relative; 
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="cacau.jpg" id="cabeca">
+        <nav>
+            <ul>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="capa">
+        <h2>
+            <img alt="" height="600" src="capa.jpg" width="1200">
+        </h2>
+    </div>
+
+    <h2>Tipos de Cacau</h2>
+    <div class="container">
+        <div class="menu-item">
+            <img src="cacau.jpeg" alt="Café com Laranja">
+            <h3>Cacau Criollo</h3>
+            <a href="#" class="link-interativo" onclick="exibirMensagem(event)">Ver detalhes</a>
+            <div class="mensagem" style="display: none;">
+                <p>O Criollo é considerado o "rei do cacau" devido à sua antiguidade e raridade. Cultivado principalmente na América Latina, o Criollo destaca-se por seus frutos de casca fina e sementes que variam de brancas a levemente rosadas.</p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="cacauforasteiro.jpg" alt="Café Latte">
+            <h3>Cacau Forasteiro</h3>
+            <a href="#" class="link-interativo" onclick="exibirMensagem(event)">Ver detalhes</a>
+            <div class="mensagem" style="display: none;">
+                <p>O Forasteiro é a variedade mais comum, responsável por cerca de 80-90% da produção mundial de cacau. Originário da bacia amazônica, mas amplamente cultivado na África, o Forasteiro possui frutos de casca-grossa e sementes roxas.</p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="cacautrinitario.jpg" alt="café gelado">
+            <h3>Cacau Trinitário</h3>
+            <a href="#" class="link-interativo" onclick="exibirMensagem(event)">Ver detalhes</a>
+            <div class="mensagem" style="display: none;">
+                <p>Este cacau é cultivado em diversas regiões tropicais e oferece um bom equilíbrio entre o sabor rico e a complexidade do Criollo com a robustez do Forasteiro. </p>
+            </div>
+        </div>
+    </div>
+    <section>
+        <h1>Explorando o Fascinante Mundo do Cacau: Descubra as Variedades e Segredos do Chocolate</h1>
+        <p>Bem-vindo a uma jornada única pelo mundo do cacau, onde cada mordida é uma experiência sensorial inigualável. Nesta matéria, mergulharemos nas profundezas das variedades de cacau - do nobre Criollo ao versátil Forasteiro e ao equilibrado Trinitário. Conheça as características únicas de cada tipo de cacau e descubra como elas influenciam o sabor e a qualidade do chocolate que tanto amamos.</p>
+        <br>
+        <p>Além disso, desvendaremos o processo de produção do chocolate, desde as amêndoas de cacau até a deliciosa massa de cacau que dá vida aos nossos chocolates favoritos. Aprenda a diferenciar as amêndoas de cacau da massa de cacau e a apreciar as nuances de sabor que cada umaoferece.</p>
+        <br>
+        <p>Prepare-se para uma viagem fascinante pelo mundo do cacau, onde os aromas envolventes e os sabores complexos nos conduzem a uma experiência única de prazer e descoberta. Esteja pronto para se surpreender e se encantar com os segredos e maravilhas do chocolate.</p>
+   <br>
+    </section>
+<div class="chocolate">
+    <img alt=" O chocolate é um produto feito a partir da semente de cacau. Quanto maior o nível de cacau no chocolate, mais benefícios ele apresenta." height="450" src="chocolate.jpg" width="700" loading="lazy">
+</div>
+<section>
+   <br>
+    <p>Vale destacar, no entanto, que, quando os produtos feitos com cacau apresentam grandes quantidades de açúcares e gorduras,como o chocolate aoleite, seu consumo desenfreado pode ser prejudicial. Desse modo, recomenda-se que, ao consumir produtos que utilizam cacau em sua composição, a preferência seja para o consumo daqueles que apresentam maiores teores de cacau, como chocolate 70%, pois eles são menos processados e apresentam mais benefícios à saúde, conservando melhor as propriedades antioxidantes, anti-inflamatórias e cardioprotetoras do fruto.</p>
+ <br>
+</section>
+    <script src="script.js"></script>
+
+    <script>
+        function exibirMensagem(event) {
+            event.preventDefault();
+            var mensagemDiv = event.target.nextElementSibling;
+            mensagemDiv.style.display = mensagemDiv.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+
+ <footer>
+    <img src="perfilll.jpg" id="perfil">
+    <ul>
+    <h3>Informações de Contato  </h3>
+    <p>Gustavo Dubay</p>
+    <p>Email: Gustavo.dubay.xavier@escola.pr.gov.br</p>  
+    </ul>
+    </footer>
+</body>
+</html>

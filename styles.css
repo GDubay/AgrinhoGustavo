@@ -1,0 +1,101 @@
+body {
+    font-family: "Tilt Neon", sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color:#3C7553;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  
+    
+}
+
+nav ul a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+     
+}
+nav ul li a {
+    color: #ffffff; 
+}
+   
+.container {
+    width: 80%;
+    margin-left: 400px;
+    
+}
+
+.menu-item {
+    border: 1px solid #3C7553;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow:  0 0 10px #3C7553;
+}
+
+.menu-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #3c7553;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.img{
+    text-align: center;
+}
+#cabeca{
+    width: 30%;
+}
+.mensagem{
+    display: none;
+}
+
+a{
+    color: #3C7553;
+    text-decoration: none;
+}
+.capa img{
+    max-width: 100%;
+    height: auto!important;
+    margin: 10px 0;
+}
+section {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 800px;
+    font-size: 20px; 
+}
+.link-interativo {
+    color: #3C7553; 
+    transition: color 0.3s ease; 
+  }
+  
+.link-interativo:hover {
+    color: #000000; 
+  }
+  .mensagem {
+    display: none;
+    transition: display 0.3s ease-in-out;
+}
+footer img{
+    width: 130px;
+    border: 3px solid #ccc;
+    box-shadow:  0 0 10px #ccc;
+}
